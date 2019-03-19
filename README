@@ -1,0 +1,23 @@
+run python3 ___________
+
+src/Runner_First.py -- Basic example with basic dataset (data/train.txt)
+    A simple dataset with three sentences is used.
+    Ngram models for these sentences are calculated. (Unigram, Bigram, Trigram, Add-one smoothing, good-turing smoothing)
+    Models are tested using some unigram, bigram, trigram word units.
+    New sentences are generated and perpexility score calculated.
+
+src/Runner_Second.py -- Real dataset
+    Ngram models are built using Brown corpus.
+    Brown test dataset perpexility score calculated.
+    New sentences are generated and perpexility score calculated.
+
+src/Runner_Interpolation.py -- Real dataset - Interpolation
+    Interplation model implemented.
+    Different lambda values are testted on validation dataset. (using brute-force approach - manually selected)
+    New perpexility scoring function using interpolated model is implemented.
+    Finally, best lambda value is used for Brown test dataset. (perpexility)
+
+src/Runner_Discounting_Simple.py  -- Basic example discounting
+    Discounting method is implemented.
+    For β = 0.5, new bigram and trigram models are calculated.
+    New perpexility scoring using discounted models are implemented. (Bigram and Trigram)

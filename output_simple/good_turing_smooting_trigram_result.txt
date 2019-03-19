@@ -1,0 +1,15 @@
+Word Unit			Count	Probability
+('<s>', 'I', 'am') : 1 : 0
+('I', 'am', 'Sam') : 1 : 0
+('am', 'Sam', '</s>') : 1 : 0
+('<s>', 'Sam', 'I') : 1 : 0
+('Sam', 'I', 'am') : 1 : 0
+('I', 'am', '</s>') : 1 : 0
+('<s>', 'I', 'do') : 1 : 0
+('I', 'do', 'not') : 1 : 0
+('do', 'not', 'like') : 1 : 0
+('not', 'like', 'green') : 1 : 0
+('like', 'green', 'eggs') : 1 : 0
+('green', 'eggs', 'and') : 1 : 0
+('eggs', 'and', 'ham') : 1 : 0
+('and', 'ham', '</s>') : 1 : 0

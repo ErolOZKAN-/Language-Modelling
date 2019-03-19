@@ -1,0 +1,13 @@
+Onegram			Count	Probability
+<s> : 3 : 0.15
+I : 3 : 0.15
+am : 2 : 0.1
+Sam : 2 : 0.1
+</s> : 3 : 0.15
+do : 1 : 0.05
+not : 1 : 0.05
+like : 1 : 0.05
+green : 1 : 0.05
+eggs : 1 : 0.05
+and : 1 : 0.05
+ham : 1 : 0.05
